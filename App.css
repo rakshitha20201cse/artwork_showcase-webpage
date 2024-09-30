@@ -1,0 +1,279 @@
+/* General Container Styling */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  transition: box-shadow 0.3s ease;
+  text-align: center; /* Center all content inside the container */
+}
+
+.container:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings Styling */
+h1,
+h2 {
+  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #1a1a1a; /* Darker color for main title */
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  color: #16a085; /* Teal color for subtitles */
+}
+
+/* Paragraph Styling */
+p {
+  color: #34495e;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin: 0 auto 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Video Styling */
+video {
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+}
+
+video:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+/* Art Details Section */
+.art-details {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.art-details p {
+  font-weight: bold;
+  color: #34495e;
+}
+
+/* Artwork Description Section */
+.art-description {
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center; /* Ensure center alignment */
+}
+
+.art-description:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.art-description h2 {
+  color: #16a085;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.art-description p {
+  color: #7f8c8d;
+  text-align: center;
+}
+
+/* File Upload Form */
+form {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center form elements */
+}
+
+label {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px dashed #c6d7e3;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input[type="file"]:hover {
+  border-color: #bec9d0;
+  background-color: #eaf6fd;
+}
+
+label {
+  background-color: #c0cbd3;
+  color: rgb(26, 23, 23);
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+label:hover {
+  background-color: #2980b9;
+}
+
+button {
+  background-color: #34cddb;
+  color: rgb(22, 17, 17);
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Selected Media Preview */
+.selected-media {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selected-media img,
+.selected-media video {
+  border: 2px solid #16a085;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+/* Comments Section */
+.comment-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.comment {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+div {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  background-color: #f0f4f8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #555;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* Input Styling */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+  text-align: center;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(22, 160, 133, 0.5);
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #7f8e9f;
+}
+
+button:active {
+  background-color: #003f7f;
+}
+
+/* Input Placeholder */
+input[type="text"]::placeholder {
+  color: #aaa;
+}
